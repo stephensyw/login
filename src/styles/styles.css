@@ -19,3 +19,8 @@ ul li a{
 ul li a: hover {
 	color: yellow
 }
+
+input[type="submit"] {
+    touch-action: manipulation;  /* Improves responsiveness */
+    cursor: pointer;             /* Ensures clickable behavior */
+}
