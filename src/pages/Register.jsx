@@ -10,7 +10,7 @@ const Login = () => {
 		e.preventDefault()
 		
 		fetch(
-			'https://localhost:5000/api/register', {
+			'http://localhost:5000/api/register', {
 				
 				method: "POST",
 				headers : {

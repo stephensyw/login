@@ -10,7 +10,7 @@ const Login = () => {
 		e.preventDefault()
 		
 		fetch(
-			'https://localhost:5000/api/login', {
+			'http://localhost:5000/api/login', {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json"
