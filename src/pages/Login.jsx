@@ -10,7 +10,7 @@ const Login = () => {
 		e.preventDefault()
 		
 		fetch(
-			'https://unique-shortbread-75b525.netlify.app:5000/api/login', {
+			'https://localhost:5000/api/login', {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json"
