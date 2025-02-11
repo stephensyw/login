@@ -10,7 +10,7 @@ const Login = () => {
 		e.preventDefault()
 		
 		fetch(
-			'http://localhost:5000/api/login', {
+			'https://login-qeg7.onrender.com/api/login', {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json"
