@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
+const PORT = process.env.PORT || 5000;
 
 const app = express()
 app.use(cors())
@@ -75,6 +76,6 @@ app.post('/api/login', (req, res) =>{
 //	}
 //})
 
-app.listen(5000, () => {
+app.listen(PORT, '0.0.0.0', () => {
 	console.log('Listening at port 5000 ...')
 })
